@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7cde8; /* Cor de fundo que pode ser alterada */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #214c7e; /* Cor de fundo do cabeçalho */
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+header .logo img {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.book-info, .movie-info {
+    background-color: #fff; /* Cor de fundo diferente para o conteúdo */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.book-info img, .movie-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #214c7e; /* Mesma cor do cabeçalho */
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    background-color: #4a90e2; /* Cor do botão */
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #357abd; /* Cor do botão ao passar o mouse */
+}
